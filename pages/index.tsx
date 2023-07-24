@@ -23,7 +23,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [agents, setAgents] = useState<any>([]);
   const [agentsCount, setAgentsCount] = useState(0);
-  const [previewImage, setPreviewImage] = useState("02.jpg");
+  const [previewImage, setPreviewImage] = useState("05.jpg");
   const [size, setSize] = useState("l");
   const [model, setModel] = useState(2);
   const router = useRouter();
@@ -160,18 +160,17 @@ export default function Home() {
             <h6 className="text-2xl text-white">
               {" "}
               بنك الطاقة المحمول بحجم مفتاح الأنيق. يأتي هذا المنتج بسعة بطارية
-              تبلغ 1500 مللي أمبير في الساعة، مما يتيح لك شحن هاتفك أو جهازك
-              اللوحي أثناء التنقل بكل سهولة{" "}
+              تبلغ 1500 مللي أمبير في الساعة{" "}
             </h6>
           </div>
 
           <div className="grid gap-12 md:grid-cols-2">
             <div className="w-full hidden md:block">
-              {/* <div className="my-4">
+              <div className="my-4">
                 <div>
                   <img src={previewImage} alt="" className="w-full" />
                 </div>
-                <div className="grid gap-2 grid-cols-5 mt-2">
+                {/* <div className="grid gap-2 grid-cols-5 mt-2">
                   <button onClick={() => setPreviewImage("01.jpg")}>
                     <Image src="/01.jpg" width={128} height={160} />
                   </button>
@@ -184,8 +183,8 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("07.jpg")}>
                     <Image src="/07.jpg" width={128} height={160} />
                   </button>
-                </div>
-              </div> */}
+                </div> */}
+              </div>
               <div>
                 <img src="/00.webp" className="my-3" />
                 <img src="/01.jpg" className="my-3" />
@@ -221,12 +220,12 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            {/* <div className="w-full block md:hidden">
+            <div className="w-full block md:hidden">
               <div className="my-4">
                 <div>
                   <img src={previewImage} alt="" className="" />
                 </div>
-                <div className="grid gap-2 grid-cols-5 mt-2">
+                {/* <div className="grid gap-2 grid-cols-5 mt-2">
                   <button onClick={() => handleUpdateModel(1)}>
                     <Image src="/01.jpg" width={128} height={160} />
                   </button>
@@ -239,9 +238,9 @@ export default function Home() {
                   <button onClick={() => handleUpdateModel(4)}>
                     <Image src="/07.jpg" width={128} height={160} />
                   </button>
-                </div>
+                </div> */}
               </div>
-            </div> */}
+            </div>
             <div className="z-10">
               <div className="flex justify-between hidden">
                 <Image

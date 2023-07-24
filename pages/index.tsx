@@ -151,20 +151,15 @@ export default function Home() {
           </div>
         </header>
         <main className="w-full  mt-20 px-6 bg-[#151515]">
-          <div className="w-full pt-4 pb-8 text-center  z-10 mt-4">
-            <h1 className="text-5xl mb-2 text-white">
+          <div className="w-full pt-4 pb-4 text-center  z-10 mt-4">
+            <h1 className="text-4xl mb-1 text-white">
               استمتع بالحرية والمرونة في شحن أجهزتك الذكية{" "}
             </h1>
-            <h6 className="text-2xl text-white">
-              {" "}
-              بنك الطاقة المحمول بحجم مفتاح الأنيق. يأتي هذا المنتج بسعة بطارية
-              تبلغ 1500 مللي أمبير في الساعة{" "}
-            </h6>
           </div>
 
           <div className="grid gap-12 md:grid-cols-2">
             <div className="w-full hidden md:block">
-              <div className="my-4">
+              <div className="my-2">
                 <div>
                   <img src={previewImage} alt="" className="w-full" />
                 </div>
@@ -506,6 +501,41 @@ export default function Home() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe> */}
+              <div className="text-white text-right mt-4">
+                <h1 className="text-xl mb-2 text-orange-400">
+                  استعد لتجربة الشحن المحمولة الجديدة مع بنك الطاقة المحمول بحجم
+                  مفتاح!
+                </h1>
+                <p className="text-orange-100 text-lg">
+                  هل تعبت من البحث عن مقابل جداري لشحن هاتفك المحمول أثناء
+                  التنقل؟ هل ترغب في الحصول على حلاً مريحًا وفعالًا للبقاء على
+                  اتصال في أي مكان وفي أي وقت؟ إليك الحل: بنك الطاقة المحمول
+                  بحجم مفتاح.
+                </p>
+                <p className="mt-3 text-lg">
+                  مزود ببطارية سعة 1500 مللي أمبير في الساعة ، والتي يمكن أن تحل
+                  مشكلة انقطاع التيار الكهربائي المؤقت للأجهزة الإلكترونية ،
+                  وتتيح لك عدم القلق بشأن نفاد الطاقة في جميع الأوقات
+                </p>
+                <p className="mt-3 text-lg">
+                  هل تعبت من البحث عن مقابل جداري لشحن هاتفك المحمول أثناء
+                  التنقل؟ هل ترغب في الحصول على حلاً مريحًا وفعالًا للبقاء على
+                  اتصال في أي مكان وفي أي وقت؟ إليك الحل: بنك الطاقة المحمول
+                  بحجم مفتاح.
+                </p>
+                <p className="mt-3 text-lg">
+                  مزود بشكل سلسلة مفاتيح لطيف ، شاحن المحمول صغير ويمكن استخدامه
+                  في أي مكان كسلسلة مفاتيح دون أن يكون ضخمًا وغير مريح . - يدعم
+                  شاحن سلسلة المفاتيح وظيفة التوصيل والتشغيل ، والتي لا تتطلب أي
+                  كابلات مباشرة إضافية ويتم توصيلها بالجزء الخلفي من الهاتف لبدء
+                  الشحن .
+                </p>
+                <p className="mt-3 text-lg">
+                  تستخدم على نطاق واسع في مجموعة متنوعة من الهواتف المحمولة مع
+                  أمان جيد ، تتمتع سلاسل مفاتيح الشاحن المحمولة بتوافق واسع ولا
+                  تحتاج إلى تثبيت أي برامج إضافية مثل برنامج التشغيل
+                </p>
+              </div>
               <div className="text-right mt-0">
                 <img src="/00.webp" className="my-3" />
                 <img src="/01.jpg" className="my-3" />
